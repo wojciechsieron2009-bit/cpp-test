@@ -1,7 +1,10 @@
+//Program wykonany przez Wojciecha S
+// Zmiany w pliku
+
 #include <iostream>
 using namespace std;
 int main()
-{ double liczba10; // liczba z u³amkiem dziesiêtnym
+{ double liczba10; // liczba z uï¿½amkiem dziesiï¿½tnym
  double ulamek;
     int n;
     int t[10]={0};
@@ -21,7 +24,7 @@ for(int i=0; i<100; i++){ //petla dla czesci ulamkowej
 if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
     else u[i]=0;
 }
-cout<<"binarnie ta liczba to:";
+cout<<"binarnie ta liczba wynosi:";
 for(i=0;i<10;i++)cout<<t[i];
 cout<<".";
 for(i=0;i<100;i++)cout<<u[i];
